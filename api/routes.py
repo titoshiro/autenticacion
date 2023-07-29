@@ -49,4 +49,4 @@ def login_user():
 @jwt_required()
 def protected():
     current_user = get_jwt_identity()
-    return jsonify({"message": f"Hola usuario numero  {current_user}! estas en tu ruta protegida."}), 200
+    return jsonify({"message": f"Hola androide numero  {current_user}! estas en tu ruta protegida bienvenido."}), 200
